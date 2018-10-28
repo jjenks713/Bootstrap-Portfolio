@@ -8,33 +8,42 @@
     <title>Bootstrap Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link rel="stylesheet" style="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" style="text/css" href="assets/css/style.css">
     <title>My Portfolio</title>
 </head>
 
 <body>
-    <header class="navbar navbar-inverse">
-        <nav class="container-flud">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-inverse">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>
-                            <div class="navbar navbar-nav navbar-header">
-                                <h1>Josh Jenkin</h1>
-                            </div>
 
+                <a class="navbar navbar-brand">
+                    <h1>Josh Jenkin</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerExternalContent"
+                    aria-controls="navbarTogglerExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                            <ul class="nav navbar-nav navbar-right">
+                <div class="collapse navbar-collapse collapse" id="navbarTogglerExternalContent" style>
 
-                                <li><a href="index.html">About</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </h1>
-                    </div>
+                    <ul class="navbar-nav navbar-right ml-md-auto" id="navbarTogglerExternalContent">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
+
             </div>
         </nav>
     </header>
@@ -50,7 +59,7 @@
 
 
 
-    <section class="container">
+    <section class="container bg-light">
         <div class="row">
 
             <div class="panel panel-default col-md-12">
@@ -60,64 +69,85 @@
                         <h1 class="page-header font-weight-bold" style="padding-bottom:20px; border-bottom:5px solid #dddddd; margin-bottom:30px;">Portfolio</h1>
                     </div>
                 </div>
-                <div class="media">
-                    <div class="row">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
 
-                        <div class="col-md-4">
-                            <div class="thumbnail">
-                                <a class="images" href="..." style="text-decoration:none; color:#ffffff;">
-                                    <img src="assets/images/wall.jpg" alt="Profile-image">
-
-                                    <h3 class="caption">Hangman</h3>
+                            <div class="img-thumbnail">
+                                <a class="images" href="assets/images/wall.jpg">
+                                    <div class="images" style="text-decoration:none">
+                                        <img src="assets/images/wall.jpg" alt="Profile-image" style="width:300px;">
+                                        <h3 class="caption">Trivia Game</h3>
+                                    </div>
+                                </a>
                             </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="thumbnail">
-                                <a class="images" href="..." style="text-decoration:none; color:#ffffff;">
-                                    <img src="assets/images/wall.jpg" alt="Profile-image">
-
-                                    <h3 class="caption">RPG Game</h3>
-                            </div>
-                            </a>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
 
-                        <div class="col-md-4">
-                            <div class="thumbnail">
-                                <a class="images" href="..." style="text-decoration:none; color:#ffffff;">
-                                    <img src="assets/images/wall.jpg" alt="Profile-image">
+                            <div class="img-thumbnail">
+                                <a class="images" href="assets/images/wall.jpg">
+                                    <div class="images" style="text-decoration:none">
+                                        <img src="assets/images/wall.jpg" alt="Profile-image" style="width:300px;">
+                                        <h3 class="caption">Rutgers Info Widget</h3>
+                                    </div>
+                                </a>
 
-                                    <h3 class="caption">Trivia Game</h3>
                             </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="thumbnail">
-                                <a class="images" href="..." style="text-decoration:none; color:#ffffff;">
-                                    <img src="assets/images/wall.jpg" alt="Profile-image">
-
-                                    <h3 class="caption">Rutgers Info Widget</h3>
-                            </div>
-                            </a>
                         </div>
                     </div>
-                    <div class="row">
 
-                        <div class="col-md-4">
-                            <div class="thumbnail">
-                                <a class="images" href="..." style="text-decoration:none; color:#ffffff;">
-                                    <img src="assets/images/wall.jpg" alt="Profile-image">
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
 
-                                    <h3 class="caption text-muted">Rock Paper Scissors</h3>
+                            <div class="img-thumbnail">
+                                <a class="images" href="assets/images/wall.jpg">
+                                    <div class="images" style="text-decoration:none">
+                                        <img src="assets/images/wall.jpg" alt="Profile-image" style="width:300px;">
+                                        <h3 class="caption">Trivia Game</h3>
+                                    </div>
+                                </a>
                             </div>
-                            </a>
                         </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
 
+                            <div class="img-thumbnail">
+                                <a class="images" href="assets/images/wall.jpg">
+                                    <div class="images" style="text-decoration:none">
+                                        <img src="assets/images/wall.jpg" alt="Profile-image" style="width:300px;">
+                                        <h3 class="caption">Rutgers Info Widget</h3>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+
+                            <div class="img-thumbnail">
+                                <a href="assets/images/wall.jpg">
+                                    <div class="images" style="text-decoration:none">
+                                        <img src="assets/images/wall.jpg" alt="Profile-image" style="width:300px;">
+                                        <h3 class="caption">Rock Paper Scissors</h3>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+
 
     </section>
 
@@ -130,7 +160,7 @@
     <br>
     <br>
     <br>
-    <footer class="navbar navbar-inverse navbar-fixed-bottom">
+    <footer class="navbar navbar-dark bg-dark navbar-inverse fixed-bottom">
         <div class="text-center">
             <a class="text-muted">Copyright &copy;</a>
         </div>
