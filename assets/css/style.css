@@ -194,3 +194,19 @@ input[type="reset"] {
     font-size: 14px;
     color: #777777;
 }
+.img-thumbnail {
+    width: 100%
+}
+@media screen and (max-width: 1200px) {
+    .prows {
+        margin-left: 75px;
+    } 
+
+@media screen and (max-width: 1000px) {
+    .prows {
+        margin-left: 100px;
+    } 
+@media screen and (max-width: 768px) {
+    .prows {
+        margin-left: 0;
+    } 
