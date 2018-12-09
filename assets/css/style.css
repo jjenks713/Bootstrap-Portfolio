@@ -7,6 +7,9 @@ nav {
     padding-bottom: 15px;
     color: #777777;
 }
+.name {
+    font-size: 60px;
+}
 section {
     font-family: josefin+Sans;
     font-size: 25px;
